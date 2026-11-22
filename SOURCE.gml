@@ -6,7 +6,7 @@
 	which will serve as the entry point of your game ( all instances that will be created inside the Create event of this object will be 'persistent = true',
 	including 'App' object instance itself )
 	
-	Copyright (c) 2026 Soykow
+	Soykow (c) 2026 
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
