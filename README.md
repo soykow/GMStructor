@@ -1,2 +1,1 @@
-Небольшой скрипт для создания единой точки входа игры. После установки скрипта, можно создать объект `App`, который гарантированно будет создан в игре раньше других экземпляров ( даже тех, что расставлены в комнате вручную )<br>
-Скрипт создан для небольшой автоматизации инициализации "загрузочного объекта" в первой комнате игры
+This extension allows you to create instances of objects like constructor functions ( using the custom operator 'new_GMS' ). In addition, the game will now check the existence of the 'App' object at startup and initiate the creation of its instance, which will serve as the entry point of your game ( all instances that will be created inside the Create event of this object will be 'persistent = true', including 'App' object instance itself )
